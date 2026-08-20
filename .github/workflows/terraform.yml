@@ -50,4 +50,4 @@ jobs:
       
     - name: Terraform apply
       working-directory: terraform
-      run: terraform apply --var-file=tfvars/dev.tfvars
+      run: terraform apply -auto-approve --var-file=tfvars/dev.tfvars
