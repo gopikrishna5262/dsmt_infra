@@ -42,4 +42,4 @@ jobs:
 
     - name: Terraform Validate
       working-directory: terraform
-      run: cd terraform; terraform validate
+      run: terraform validate
